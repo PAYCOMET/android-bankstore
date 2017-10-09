@@ -1,0 +1,3 @@
+REVIEWBOARD_URL = "https://reviewboard.airtouchmedia.com/"
+REPOSITORY = "PayTPVAndroid"
+
