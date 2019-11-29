@@ -5,11 +5,11 @@ package com.paytpv.androidsdk.Model.Basic;
  * Represents the configuration of the contracted product.<br>
  * <br>
  * You provide a PTPVConfiguration instance to the PTPVAPIClient which will use it when making api
- * calls to PAYTPV.<br>
+ * calls to PAYCOMET.<br>
  * <br>
- * In order to use the PAYTPV payment gateway in your business, you must have the necessary
- * configuration parameters. These can be obtained through the PAYTPV customer management platform
- * at <a href="https://secure.paytpv.com/cp_control/">https://secure.paytpv.com/cp_control/</a><br>
+ * In order to use the PAYCOMET payment gateway in your business, you must have the necessary
+ * configuration parameters. These can be obtained through the PAYCOMET customer management platform
+ * at <a href="https://dashboard.paycomet.com/cp_control/">https://dashboard.paycomet.com/cp_control/</a><br>
  * <br>
  * Once inside the platform, the configuration of the contracted product can be reviewed through the
  * menu My products -> Configure product.<br>

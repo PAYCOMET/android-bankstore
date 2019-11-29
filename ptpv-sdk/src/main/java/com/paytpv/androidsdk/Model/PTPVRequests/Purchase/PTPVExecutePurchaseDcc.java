@@ -90,7 +90,7 @@ public class PTPVExecutePurchaseDcc extends PTPVMerchant {
      *            = 450...
      * @param merchantOrder Reference of the operation. Must be unique on every valid transaction
      * @param merchantCurrency Currency of the transaction. See more details at <a
-     *            http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     public PTPVExecutePurchaseDcc(String merchantAmount, String merchantOrder,
             String merchantCurrency) {

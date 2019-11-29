@@ -55,7 +55,7 @@ import static com.paytpv.androidsdk.Utils.Constants.SHARED_PREFERENCES_NAME;
 import static com.paytpv.androidsdk.Utils.Constants.WS_URL;
 
 /**
- * A service containing a PAYTPV API client
+ * A service containing a PAYCOMET API client
  */
 public class PTPVApiClient {
     /**
@@ -68,7 +68,7 @@ public class PTPVApiClient {
      */
     private PTPVConfiguration mConfiguration;
     /**
-     * A client for making requests to the PAYTPV API
+     * A client for making requests to the PAYCOMET API
      */
     private PTPVApi mPtpvApi;
 
@@ -192,9 +192,9 @@ public class PTPVApiClient {
     }
 
     /**
-     * Adds a card to PAYTPV. <br>
+     * Adds a card to PAYCOMET. <br>
      * <br>
-     * This operation must be activated by PAYTPV. Contact us to register for the desired product.
+     * This operation must be activated by PAYCOMET. Contact us to register for the desired product.
      *
      * @param card A PTPVCard instance containing the credit card details.
      * @param callback The callback to run with the returned PTPVAddUser object, or an error.
@@ -428,7 +428,7 @@ public class PTPVApiClient {
     /**
      * Execute a Dynamic currency conversion purchase with the user's details. <br>
      * <br>
-     * This operation must be activated by PAYTPV. Contact us to register for the desired product.
+     * This operation must be activated by PAYCOMET. Contact us to register for the desired product.
      * <br>
      * <br>
      * Once the user is registered on the system, they can make payments with their account by
@@ -617,7 +617,7 @@ public class PTPVApiClient {
      * Creates a subscription to the account of the business with the given credit card.<br>
      * <br>
      * The registration of a subscription implies the registration of a user in the BankStore system
-     * of PAYTPV. This process is completely independent from the isolated charge to a customer of
+     * of PAYCOMET. This process is completely independent from the isolated charge to a customer of
      * the business.<br>
      * <br>
      * If the execution of the first installment has an error for several reasons (balance, validity
@@ -685,7 +685,7 @@ public class PTPVApiClient {
      * offer the service of editing a subscription. In this case it will not be possible to change
      * the currency nor the bank details of the customer of the business. The modification of the
      * subscription involves the prior registration of a user in subscription mode in the BankStore
-     * system of PAYTPV. This process is completely independent from the isolated charge to a
+     * system of PAYCOMET. This process is completely independent from the isolated charge to a
      * customer of the business.
      *
      * @param user A PTPVUser instance containing the user details.
@@ -949,7 +949,7 @@ public class PTPVApiClient {
     /**
      * Registers a user based on a token previously obtained trough the solution BankStore JET. See
      * more information at <a href=
-     * "http://developers.paytpv.com/en/documentacion/jet-bankstore">http://developers.paytpv.com/en/documentacion/jet-bankstore</a>
+     * "https://docs.paycomet.com/en/documentacion/jet-bankstore">https://docs.paycomet.com/en/documentacion/jet-bankstore</a>
      *
      * @param jetToken Token obtained from javascript
      * @param callback The callback to run with the returned PTPVUser object, or an error.

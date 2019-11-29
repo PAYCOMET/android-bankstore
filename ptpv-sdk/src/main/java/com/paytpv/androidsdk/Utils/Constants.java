@@ -16,7 +16,7 @@ public class Constants {
     /**
      * Networking constants
      */
-    public static final String WS_URL = "https://secure.paytpv.com/gateway/json-bankstore/";
+    public static final String WS_URL = "https://api.paycomet.com/gateway/json-bankstore/";
     public static final String ADD_USER = "add_user";
     public static final String ADD_USER_TOKEN = "add_user_token";
     public static final String GET_IP = "json-remote-ip";

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         // ------------------------------------------------------------------------------
-        // Get an instance of the PAYTPV client
+        // Get an instance of the PAYCOMET client
         // ------------------------------------------------------------------------------
         this.mClient = PTPVApiClient.getInstance(this.getApplicationContext());
         PTPVConfiguration configuration = new PTPVConfiguration.PTPVConfigurationBuilder(
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     // ------------------------------------------------------------------------------
-    // Open an AlertDialog for creating a new user with a PAYTPV token
+    // Open an AlertDialog for creating a new user with a PAYCOMET token
     // ------------------------------------------------------------------------------
     private void addUserWithToken() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
@@ -95,12 +95,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Configure the Alert
         // ------------------------------------------------------------------------------
         alert.setTitle("Create user with token");
-        alert.setMessage("Enter the PAYTPV token:");
+        alert.setMessage("Enter the PAYCOMET token:");
         alert.setView(editText);
 
         // ------------------------------------------------------------------------------
         // If the "Create" button was pressed, proceed to creating a new user with the
-        // corresponding PAYTPV token
+        // corresponding PAYCOMET token
         // ------------------------------------------------------------------------------
         alert.setPositiveButton("Create", new DialogInterface.OnClickListener() {
             @Override

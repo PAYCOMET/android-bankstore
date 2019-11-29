@@ -31,7 +31,7 @@ public class PTPVSubscription {
 
     /**
      * Currency of the transaction. See more details at <a href=
-     * "http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     * "https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     @SerializedName(SUBSCRIPTION_CURRENCY)
     private String subscriptionCurrency;
@@ -73,7 +73,7 @@ public class PTPVSubscription {
      *            the characters “[“ or “]”, they will be used to recognize the user of the
      *            business.
      * @param subscriptionCurrency Currency of the transaction. See more details at <a href=
-     *            "http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            "https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      * @param subscriptionStartDate Subscription start date. If the value is empty the date is the
      *            same day of registration. The format of the date is YYYY-MM-DD
      * @param subscriptionEndDate Subscription end date. It may not be later than the Subscription
@@ -100,7 +100,7 @@ public class PTPVSubscription {
      * @param subscriptionOrder Original reference of the operation + [DS_IDUSER] + date of the
      *            transaction in format YYYYMMDD
      * @param subscriptionCurrency Currency of the transaction. See more details at <a href=
-     *            "http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            "https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     public PTPVSubscription(String subscriptionAmount, String subscriptionOrder,
             String subscriptionCurrency) {

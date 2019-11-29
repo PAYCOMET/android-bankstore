@@ -26,7 +26,7 @@ public class PTPVMerchant {
 
     /**
      * Currency of the transaction. See more details at <a href=
-     * "https://secure.paytpv.com/cp_control/">http://developers.paytpv.com/en/documentacion/monedas</a>
+     * "https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     @SerializedName(MERCHANT_CURRENCY)
     private String currency;
@@ -43,7 +43,7 @@ public class PTPVMerchant {
      * @param amount Amount of the operation in integer format. 1.00 EURO = 100, 4.50 EUROS = 450...
      * @param order Reference of the operation. Must be unique on every valid transaction
      * @param currency Currency of the transaction. See more details at <a
-     *            http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      * @param authCode Authorization bank code of the transaction (required to execute a return)
      */
     public PTPVMerchant(String amount, String order, String currency, String authCode) {
@@ -59,7 +59,7 @@ public class PTPVMerchant {
      * @param amount Amount of the operation in integer format. 1.00 EURO = 100, 4.50 EUROS = 450...
      * @param order Reference of the operation. Must be unique on every valid transaction
      * @param currency Currency of the transaction. See more details at <a
-     *            http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     public PTPVMerchant(String amount, String order, String currency) {
         this.amount = amount;

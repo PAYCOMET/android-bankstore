@@ -53,7 +53,7 @@ public class AddUserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_user);
 
         // ------------------------------------------------------------------------------
-        // Get an instance of the PAYTPV client
+        // Get an instance of the PAYCOMET client
         // ------------------------------------------------------------------------------
         final PTPVApiClient client = PTPVApiClient.getInstance(this.getApplicationContext());
 

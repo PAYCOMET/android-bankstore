@@ -38,7 +38,7 @@ public class PTPVConfirmPurchaseDcc extends PTPVMerchant {
      *            = 450...
      * @param merchantOrder Reference of the operation. Must be unique on every valid transaction
      * @param merchantCurrency Currency of the transaction. See more details at <a
-     *            http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      * @param merchantAuthCode Authorization bank code of the transaction (required to execute a
      *            return)
      */

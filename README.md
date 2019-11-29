@@ -1,7 +1,7 @@
 # ANDROID-SDK
-PAYTPV SDK for Apps in Android
+PAYCOMET SDK for Apps in Android
 
-The PAYTPV SDK provides easy to use methods for connecting to the PAYTPV API.
+The PAYCOMET SDK provides easy to use methods for connecting to the PAYCOMET API.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -16,7 +16,7 @@ The SDK is compatible with Android apps supporting API 15 and later.
 
 ## Installation
 
-To integrate PAYTPV into your project, add the following dependency to  the module `build.gradle`:
+To integrate PAYCOMET into your project, add the following dependency to  the module `build.gradle`:
 
 ```ruby
 dependencies {
@@ -78,7 +78,7 @@ client.addUser(card, new PTPVCallbacks.AddUserResponse() {
 
         // Define payment details
         PTPVMerchant merchant = new PTPVMerchant("199", "android_1234", PTPVCurrency.EUR);
-        PTPVProduct product = new PTPVProduct("PAYTPV", "Android SDK", "100");
+        PTPVProduct product = new PTPVProduct("PAYCOMET", "Android SDK", "100");
 
         // Make the payment
         client.executePurchase(addUserResponse, merchant, product, new PTPVCallbacks.PurchaseDetailsResponse() {
@@ -114,7 +114,7 @@ client.addUser(card, object: PTPVCallbacks.AddUserResponse {
 
         // Define payment details
         val merchant = PTPVMerchant("199", "android_1234", PTPVCurrency.EUR)
-        val product = PTPVProduct("PAYTPV", "Android SDK", "100")
+        val product = PTPVProduct("PAYCOMET", "Android SDK", "100")
 
         // Make the payment
         client.executePurchase(addUserResponse, merchant, product, object : PTPVCallbacks.PurchaseDetailsResponse {

@@ -53,7 +53,7 @@ public class PTPVSubscriptionResponse extends PTPVSubscription {
      * @param subscriptionOrder Original reference of the operation + [DS_IDUSER] + date of the
      *            transaction in format YYYYMMDD
      * @param subscriptionCurrency Currency of the transaction. See more details at <a href=
-     *            "http://developers.paytpv.com/en/documentacion/monedas">http://developers.paytpv.com/en/documentacion/monedas</a>
+     *            "https://docs.paycomet.com/en/documentacion/monedas">https://docs.paycomet.com/en/documentacion/monedas</a>
      */
     public PTPVSubscriptionResponse(String subscriptionAmount, String subscriptionOrder,
             String subscriptionCurrency) {

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         // ------------------------------------------------------------------------------
-        // Get an instance of the PAYTPV client
+        // Get an instance of the PAYCOMET client
         // ------------------------------------------------------------------------------
         val mClient = PTPVApiClient.getInstance(applicationContext)
         val configuration = PTPVConfiguration.PTPVConfigurationBuilder(CONFIG_CODE, CONFIG_TERMINAL, CONFIG_PASSWORD)
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     // ------------------------------------------------------------------------------
-    // Open an AlertDialog for creating a new user with a PAYTPV token
+    // Open an AlertDialog for creating a new user with a PAYCOMET token
     // ------------------------------------------------------------------------------
     private fun addUserWithToken() {
         val client = PTPVApiClient.getInstance(applicationContext)
@@ -89,12 +89,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         // Configure the Alert
         // ------------------------------------------------------------------------------
         alert.setTitle("Create user with token")
-        alert.setMessage("Enter the PAYTPV token:")
+        alert.setMessage("Enter the PAYCOMET token:")
         alert.setView(editText)
 
         // ------------------------------------------------------------------------------
         // If the "Create" button was pressed, proceed to creating a new user with the
-        // corresponding PAYTPV token
+        // corresponding PAYCOMET token
         // ------------------------------------------------------------------------------
         alert.setPositiveButton("Create", { _, _ ->
             client.addUserToken(editText.text.toString(), object : PTPVCallbacks.AddUserResponse {
