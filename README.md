@@ -12,7 +12,7 @@ The PAYCOMET SDK provides easy to use methods for connecting to the PAYCOMET API
 
 The SDK is compatible with Android apps supporting API 15 and later.
 
-Important<br>
+<strong>Important</strong><br>
 Integration via ANDROID-SDK does not comply with PCI standards, to perform a mobile integration that complies with PCI standards you can integrate using <a href='https://docs.paycomet.com/en/documentacion/bankstore_jetiframe'>BankStore JET-IFRAME</a>.
 
 ---
