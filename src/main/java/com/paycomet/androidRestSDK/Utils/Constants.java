@@ -3,6 +3,45 @@ package com.paycomet.androidRestSDK.Utils;
 public class Constants {
 
     /**
+     * Languages
+     */
+    public static final String AR = "ar";
+    public static final String BG = "bg";
+    public static final String CA = "ca";
+    public static final String CS = "cs";
+    public static final String DE = "de";
+    public static final String DK = "dk";
+    public static final String EL = "el";
+    public static final String EN = "en";
+    public static final String ES = "es";
+    public static final String ET = "et";
+    public static final String FA = "fa";
+    public static final String FI = "fi";
+    public static final String FR = "fr";
+    public static final String HE = "he";
+    public static final String HI = "hi";
+    public static final String HU = "hu";
+    public static final String ID = "id";
+    public static final String IT = "it";
+    public static final String JA = "ja";
+    public static final String KO = "ko";
+    public static final String LT = "lt";
+    public static final String LV = "lv";
+    public static final String MS = "ms";
+    public static final String NL = "nl";
+    public static final String NO = "no";
+    public static final String PL = "pl";
+    public static final String PT = "pt";
+    public static final String RO = "ro";
+    public static final String RU = "ru";
+    public static final String SK = "sk";
+    public static final String SL = "sl";
+    public static final String SV = "sv";
+    public static final String TH = "th";
+    public static final String TR = "tr";
+    public static final String ZH = "zh";
+
+    /**
      * SharedPreferences constants
      */
     public static final String SHARED_PREFERENCES_NAME = "PAYCOMET";
