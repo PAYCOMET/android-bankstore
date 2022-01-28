@@ -177,6 +177,7 @@ public class PaycometApiClient {
                             if (!paycometGetIP.getErrorId().equals("0")) {
                                 callback.onError(new PaycometError(paycometGetIP.getErrorId()));
                             } else {
+                                paycometGetIP.setRemoteAddress(ip);
                                 callback.onResponse(paycometGetIP);
                             }
                         },
