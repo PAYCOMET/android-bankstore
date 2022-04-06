@@ -52,6 +52,10 @@ public class PaycometIP {
     public String getRemoteAddress() {
         return remoteAddress;
     }
+    
+    public void setRemoteAddress(String remoteAddress) {
+        this.remoteAddress = remoteAddress;
+    }
 
     protected void setErrorId(String errorId) {
         this.errorId = errorId;
